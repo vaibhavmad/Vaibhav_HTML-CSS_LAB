@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149017048.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.container {
+    padding: 20px;
+    border: black solid;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.form input:focus {
+    background-color: rgba(70, 130, 180, 0.35);
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buttons button[type="reset"] {
+    background-color: rgb(0, 4, 255);
+    color: white;
+}
+
+.buttons button[type="submit"] {
+    background-color: rgb(0, 4, 255);
+    color: white;
+}
